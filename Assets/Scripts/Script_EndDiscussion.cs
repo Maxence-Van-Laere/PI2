@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Script_EndDiscussion : MonoBehaviour
 {
     public Button buttonEnd;
+    public Button buttonStop;
     public Image myText;
     public Animator animator;
     public string triggerStart;
@@ -24,6 +25,7 @@ public class Script_EndDiscussion : MonoBehaviour
     {
         myText.gameObject.SetActive(false);
         buttonEnd.gameObject.SetActive(false);
+        buttonStop.gameObject.SetActive(false);
         animator.SetTrigger(triggerEnd);
         animator.ResetTrigger(triggerStart);
         StartCoroutine(RotateObject(rotationAngle, chaise));
