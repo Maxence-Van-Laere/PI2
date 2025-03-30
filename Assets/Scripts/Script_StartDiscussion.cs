@@ -24,12 +24,14 @@ public class Script_StartDiscussion : MonoBehaviour
 
     void OnButtonStartClick()
     {
+        animator.SetTrigger(triggerStart);
+        animator.ResetTrigger(triggerEnd);
+        animator.SetTrigger(triggerStart);
+        animator.ResetTrigger(triggerEnd);
         myText.gameObject.SetActive(true);  // le texte1 s'affiche
         buttonStart.gameObject.SetActive(false);  // le bouton commencer se cache
         buttonContinue.gameObject.SetActive(true);  // le bouton pour continuer s'affiche
         buttonEnd.gameObject.SetActive(true);  // le bouton pour finir s'affiche
-        animator.SetTrigger(triggerStart);  // l'animation commence
-        animator.ResetTrigger(triggerEnd);
         StartCoroutine(RotateObject(rotationAngle, chaise));
         StartCoroutine(RotateObject(rotationAngle, perso));
     }
