@@ -30,6 +30,8 @@ public class Script_ContinueDiscussion : MonoBehaviour
         myTextB.gameObject.SetActive(true);  // le texteB s'affiche
         buttonContinueA.gameObject.SetActive(false);  // le bouton continuer A se cache
         buttonContinueB.gameObject.SetActive(true);  // le bouton continuer B s'affiche
+        animator.SetTrigger(triggerStart);
+        animator.ResetTrigger(triggerEnd);
     }
 
     void OnButtonEndClick()
@@ -37,7 +39,7 @@ public class Script_ContinueDiscussion : MonoBehaviour
         myTextA.gameObject.SetActive(false);  // le texteA se cache
         buttonContinueA.gameObject.SetActive(false);  // le bouton continuer A se cache
         buttonEnd.gameObject.SetActive(false);  // le bouton pour finir se cache
-        animator.SetTrigger(triggerEnd);  // l'annimation s'arrete
+        animator.SetTrigger(triggerEnd);
         animator.ResetTrigger(triggerStart);
         StartCoroutine(RotateObject(rotationAngle, chaise));
         StartCoroutine(RotateObject(rotationAngle, perso));
