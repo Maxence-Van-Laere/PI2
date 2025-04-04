@@ -1047,7 +1047,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
       propertyPath: m_TagString
@@ -1266,7 +1266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.92500067
+      value: 0.99
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2716,19 +2716,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.179001
+      value: 13.166246
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.612
+      value: 0.764
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.4826859
+      value: -0.99982566
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2736,7 +2736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.8757936
+      value: -0.018675843
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2748,7 +2748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -122.278
+      value: -357.86
       objectReference: {fileID: 0}
     - target: {fileID: 2180710657582582519, guid: c0a29a5f03326487592fc0d238a07553, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -3908,15 +3908,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "C\u2019est pour cela que vous \xEAtes ici aujourd\u2019hui ! On nous a
-    rapport\xE9 que vous \xEAtes form\xE9 aux comportements \xE0 avoir faces aux
-    menaces d\u2019hame\xE7onnage et que vous \xEAtes un tr\xE8s bon enqu\xEAteur.
-    Vous avez donc la responsabilit\xE9 de trouv\xE9 qui a caus\xE9 cette fuite de
-    donn\xE9es.\r\nVous aurez 15 minutes pour interroger des suspects et nous dire
-    qui, selon vous, est le responsable. Pour cela, vous pourrez prendre des notes
-    au fur et \xE0 mesure de vos discussion sur une note int\xE9gr\xE9e dans le jeux
-    et lorsque vous pensez avoir trouv\xE9 le responsable, il vous suffira de revenir
-    dans cette pi\xE8ce pour donner le nom du responsable au boss de l'entreprise
-    (la personne juste \xE0 gauche)."
+    rapport\xE9 que vous \xEAtes form\xE9 aux comportements \xE0 avoir face aux menaces
+    d\u2019hame\xE7onnage et que vous \xEAtes un tr\xE8s bon enqu\xEAteur. Vous avez
+    donc la responsabilit\xE9 de trouver qui a caus\xE9 cette fuite de donn\xE9es.\r\nVous
+    aurez 15 minutes pour interroger des suspects et nous dire qui, selon vous, est
+    le responsable. Pour cela, vous pourrez prendre des notes au fur et \xE0 mesure
+    de vos discussions sur une note int\xE9gr\xE9e dans le jeux. Lorsque vous pensez
+    avoir trouv\xE9 le coupable, il vous suffira de revenir dans cette pi\xE8ce pour
+    donner son nom au boss de l'entreprise (la personne juste \xE0 gauche)."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4648,7 +4647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.75
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.z
