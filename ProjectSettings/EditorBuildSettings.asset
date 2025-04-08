@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OpenSpace.unity
     guid: 99bb63339d27933479a71f783725e3a2
+  - enabled: 1
+    path: Assets/Scenes/End Scene.unity
+    guid: 32a98ee333a6b4447a0fbd689a0850b3
+  - enabled: 1
+    path: Assets/Scenes/Cloture.unity
+    guid: c9bd941768ce37143b10249b266bcc43
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
