@@ -219,7 +219,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16156102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.00000037253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -228,8 +228,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 55.5, y: -35.7}
-  m_SizeDelta: {x: 40, y: 15}
+  m_AnchoredPosition: {x: 59.97998, y: -38.63002}
+  m_SizeDelta: {x: 31.04, y: 9.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &16156104
 MonoBehaviour:
@@ -253,11 +253,11 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.15294118, g: 0.39607844, b: 0.6745098, a: 0.65882355}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
+    m_ColorMultiplier: 1.5
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
@@ -295,8 +295,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 99deda137d02c8440b8c86c33bfd3e12, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1704,8 +1704,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4290628819
+  m_fontColor: {r: 0.827451, g: 0.8, b: 0.7411765, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2634,8 +2634,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4290628819
+  m_fontColor: {r: 0.827451, g: 0.8, b: 0.7411765, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3083,14 +3083,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Jeudi dernier, le d\xE9partement comptabilit\xE9 de l\u2019entreprise
-    Kids n Joy s\u2019est rendu compte que des op\xE9rations bancaires vers un compte
-    au Panama apparaissaient sur les derniers relev\xE9s bancaires de l\u2019entreprise.
-    Le service informatique a enqu\xEAt\xE9 sur ce qui pouvait en \xEAtre la cause
-    et il s\u2019est rendu compte que depuis deux semaines, un utilisateur \xE9tait
-    parfois connect\xE9 sur deux appareils en m\xEAme temps, voire connect\xE9 en
-    dehors des horaires d\u2019ouverture de l\u2019entreprise. Malheureusement, ils
-    n\u2019ont pas r\xE9ussi \xE0 identifier qui faisait \xE7a."
+  m_text: "C\u2019est l\u2019urgence ! Hier, une fuite de donn\xE9es sans pr\xE9c\xE9dent
+    a compromis l'int\xE9grit\xE9 d\u2019une entreprise. Apr\xE8s enqu\xEAte du service
+    informatique, une connexion sur le r\xE9seau de l\u2019entreprise \xE0 l\u2019autre
+    bout du monde a \xE9t\xE9 d\xE9tect\xE9e. Malheureusement l\u2019origine de la
+    br\xE8che reste inconnue. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3907,15 +3904,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "C\u2019est pour cela que vous \xEAtes ici aujourd\u2019hui ! On nous a
-    rapport\xE9 que vous \xEAtes form\xE9 aux comportements \xE0 avoir face aux menaces
-    d\u2019hame\xE7onnage et que vous \xEAtes un tr\xE8s bon enqu\xEAteur. Vous avez
-    donc la responsabilit\xE9 de trouver qui a caus\xE9 cette fuite de donn\xE9es.\r\nVous
-    aurez 15 minutes pour interroger des suspects et nous dire qui, selon vous, est
-    le responsable. Pour cela, vous pourrez prendre des notes au fur et \xE0 mesure
-    de vos discussions sur une note int\xE9gr\xE9e dans le jeux. Lorsque vous pensez
-    avoir trouv\xE9 le coupable, il vous suffira de revenir dans cette pi\xE8ce pour
-    donner son nom au boss de l'entreprise (la personne juste \xE0 gauche)."
+  m_text: "Votre mission, que vous avez d\u2019ores et d\xE9j\xE0 accept\xE9e, est
+    de trouver l\u2019origine de cette faille et la personne qui en est la cause
+    dans le temps imparti. Vous \xEAtes le meilleur ! 15 minutes doivent vous suffire
+    pour d\xE9signer le coupable au patron.  "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4292,8 +4284,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60, y: -35.7}
-  m_SizeDelta: {x: 32, y: 15}
+  m_AnchoredPosition: {x: 60.23, y: -38.63}
+  m_SizeDelta: {x: 31.54, y: 9.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1602572140
 MonoBehaviour:
@@ -4317,11 +4309,11 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.15294118, g: 0.39607844, b: 0.6745098, a: 0.6666667}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
+    m_ColorMultiplier: 1.5
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
@@ -4359,8 +4351,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 99deda137d02c8440b8c86c33bfd3e12, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
